@@ -1,10 +1,10 @@
-name: Sync PR folders
+name: Sync entire PR folder
 on:
   workflow_dispatch:
 
 jobs:
-  sync_pr_folders:
-    name: Sync PR folders
+  sync_pr_folder:
+    name: Sync PR folder
     runs-on: ubuntu-20.04
     permissions:
       id-token: write
