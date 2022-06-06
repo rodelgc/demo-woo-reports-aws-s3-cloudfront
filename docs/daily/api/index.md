@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect_to: https://d1jvmts7qipfwv.cloudfront.net/pr/33026/api/index.html
+redirect_to: https://d1jvmts7qipfwv.cloudfront.net/daily/api/allure-report/index.html
 ---
