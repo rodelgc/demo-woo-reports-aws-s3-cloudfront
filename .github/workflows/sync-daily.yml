@@ -20,4 +20,8 @@ jobs:
           role-duration-seconds: 900
 
       - name: Sync daily folder
-        run: aws s3 sync docs/daily ${{ secrets.AWS_BUCKET_URL }}/daily
+        run: |
+          aws s3 sync docs/daily ${{ secrets.AWS_BUCKET_URL }}/daily \
+            --size-only \
+            --only-show-errors \
+            --delete

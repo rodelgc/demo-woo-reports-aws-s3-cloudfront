@@ -20,4 +20,8 @@ jobs:
           role-duration-seconds: 900
 
       - name: Sync PR folders
-        run: aws s3 sync docs/pr ${{ secrets.AWS_BUCKET_URL }}/pr
+        run: |
+          aws s3 sync docs/pr ${{ secrets.AWS_BUCKET_URL }}/pr \
+            --size-only \
+            --only-show-errors \
+            --delete

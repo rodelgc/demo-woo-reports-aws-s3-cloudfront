@@ -22,5 +22,10 @@ jobs:
           aws-region: us-east-1
           role-duration-seconds: 900
 
-      - name: Sync PR folders  
-        run: aws s3 sync docs/pr/${{ github.event.inputs.pr_number }} ${{ secrets.AWS_BUCKET_URL }}/pr/${{ github.event.inputs.pr_number }}
+      - name: Sync PR folders
+        run: |
+          aws s3 sync docs/pr/${{ github.event.inputs.pr_number }} \
+            ${{ secrets.AWS_BUCKET_URL }}/pr/${{ github.event.inputs.pr_number }} \
+            --size-only \
+            --only-show-errors \
+            --delete
