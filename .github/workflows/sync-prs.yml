@@ -21,6 +21,4 @@ jobs:
 
       - name: Sync PR folders
         run: |
-          aws s3 sync docs/pr ${{ secrets.AWS_BUCKET_URL }}/pr \
-            --size-only \
-            --delete
+          aws s3 sync docs/pr ${{ secrets.AWS_BUCKET_URL }}/pr --delete

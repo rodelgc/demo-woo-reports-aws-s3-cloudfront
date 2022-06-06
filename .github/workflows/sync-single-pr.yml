@@ -25,6 +25,4 @@ jobs:
       - name: Sync PR folders
         run: |
           aws s3 sync docs/pr/${{ github.event.inputs.pr_number }} \
-            ${{ secrets.AWS_BUCKET_URL }}/pr/${{ github.event.inputs.pr_number }} \
-            --size-only \
-            --delete
+            ${{ secrets.AWS_BUCKET_URL }}/pr/${{ github.event.inputs.pr_number }} --delete
