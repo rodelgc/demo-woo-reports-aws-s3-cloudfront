@@ -23,5 +23,4 @@ jobs:
         run: |
           aws s3 sync docs/pr ${{ secrets.AWS_BUCKET_URL }}/pr \
             --size-only \
-            --only-show-errors \
             --delete
