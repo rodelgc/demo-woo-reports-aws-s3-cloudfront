@@ -27,5 +27,4 @@ jobs:
           aws s3 sync docs/pr/${{ github.event.inputs.pr_number }} \
             ${{ secrets.AWS_BUCKET_URL }}/pr/${{ github.event.inputs.pr_number }} \
             --size-only \
-            --only-show-errors \
             --delete
