@@ -1,0 +1,304 @@
+{
+  "uid" : "c43dfa4b9dcc2d0b",
+  "name" : "can edit downloadable product permissions",
+  "fullName" : "can edit downloadable product permissions",
+  "historyId" : "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions can edit downloadable product permissions",
+  "time" : {
+    "start" : 1654493391825,
+    "stop" : 1654493425043,
+    "duration" : 33218
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493391825,
+        "stop" : 1654493402191,
+        "duration" : 10366
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1654493391827,
+          "stop" : 1654493401355,
+          "duration" : 9528
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493401649,
+          "stop" : 1654493402191,
+          "duration" : 542
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/post.php?post=92&action=edit)",
+      "time" : {
+        "start" : 1654493402192,
+        "stop" : 1654493407481,
+        "duration" : 5289
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(h3.fixed)",
+      "time" : {
+        "start" : 1654493407482,
+        "stop" : 1654493407841,
+        "duration" : 359
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"downloads_remaining[0]\"])",
+      "time" : {
+        "start" : 1654493407842,
+        "stop" : 1654493407907,
+        "duration" : 65
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(input[name=\"access_expires[0]\"])",
+      "time" : {
+        "start" : 1654493407908,
+        "stop" : 1654493407994,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(button.save_order)",
+      "time" : {
+        "start" : 1654493407994,
+        "stop" : 1654493413066,
+        "duration" : 5072
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493411826,
+        "stop" : 1654493425030,
+        "duration" : 13204
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "afterEach hook",
+        "time" : {
+          "start" : 1654493411826,
+          "stop" : 1654493422319,
+          "duration" : 10493
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.click(h3.fixed)",
+          "time" : {
+            "start" : 1654493413067,
+            "stop" : 1654493415120,
+            "duration" : 2053
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toHaveValue",
+          "time" : {
+            "start" : 1654493415123,
+            "stop" : 1654493415154,
+            "duration" : 31
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "expect.toHaveValue",
+          "time" : {
+            "start" : 1654493415155,
+            "stop" : 1654493415223,
+            "duration" : 68
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 3,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493423143,
+          "stop" : 1654493424947,
+          "duration" : 1804
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "f249611def295563",
+      "name" : "video",
+      "source" : "f249611def295563.webm",
+      "type" : "video/webm",
+      "size" : 801010
+    }, {
+      "uid" : "f8e42c6da1c06bc5",
+      "name" : "trace",
+      "source" : "f8e42c6da1c06bc5.ZIP",
+      "type" : "application/zip",
+      "size" : 3580568
+    }, {
+      "uid" : "5d8a4f2ba94faf48",
+      "name" : "screenshot",
+      "source" : "5d8a4f2ba94faf48.png",
+      "type" : "image/png",
+      "size" : 112784
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/order-edit.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "WooCommerce Orders > Edit order > Downloadable product permissions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e07eb61a3d618d66",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded in afterEach hook.",
+      "time" : {
+        "start" : 1654493369195,
+        "stop" : 1654493389196,
+        "duration" : 20001
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c43dfa4b9dcc2d0b.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,261 @@
+{
+  "uid" : "2fb771dd5be8768",
+  "name" : "can create simple non-virtual product",
+  "fullName" : "can create simple non-virtual product",
+  "historyId" : "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can create simple non-virtual product",
+  "time" : {
+    "start" : 1654493294398,
+    "stop" : 1654493317725,
+    "duration" : 23327
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+  "statusTrace" : "\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/create-simple-product.spec.js:94:56",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+    "statusTrace" : "\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/create-simple-product.spec.js:94:56",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493294399,
+        "stop" : 1654493297645,
+        "duration" : 3246
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeAll hook",
+        "time" : {
+          "start" : 1654493294400,
+          "stop" : 1654493296274,
+          "duration" : 1874
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493296823,
+          "stop" : 1654493297645,
+          "duration" : 822
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/post-new.php?post_type=product)",
+      "time" : {
+        "start" : 1654493297649,
+        "stop" : 1654493306941,
+        "duration" : 9292
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#title)",
+      "time" : {
+        "start" : 1654493306941,
+        "stop" : 1654493307166,
+        "duration" : 225
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#_regular_price)",
+      "time" : {
+        "start" : 1654493307167,
+        "stop" : 1654493307337,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(#publish)",
+      "time" : {
+        "start" : 1654493307338,
+        "stop" : 1654493307551,
+        "duration" : 213
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1654493307553,
+        "stop" : 1654493312729,
+        "duration" : 5176
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493312730,
+        "stop" : 1654493317714,
+        "duration" : 4984
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493313532,
+          "stop" : 1654493315019,
+          "duration" : 1487
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "afterAll hook",
+        "time" : {
+          "start" : 1654493315025,
+          "stop" : 1654493317664,
+          "duration" : 2639
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "853ecec5fe377e64",
+      "name" : "video",
+      "source" : "853ecec5fe377e64.webm",
+      "type" : "video/webm",
+      "size" : 473326
+    }, {
+      "uid" : "aea177ebbcc2e499",
+      "name" : "trace",
+      "source" : "aea177ebbcc2e499.ZIP",
+      "type" : "application/zip",
+      "size" : 2037555
+    }, {
+      "uid" : "9b08bc15d4284091",
+      "name" : "screenshot",
+      "source" : "9b08bc15d4284091.png",
+      "type" : "image/png",
+      "size" : 130091
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-simple-product.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Add New Simple Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a346ba9c7e8ed376",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+      "time" : {
+        "start" : 1654493274405,
+        "stop" : 1654493292447,
+        "duration" : 18042
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "2fb771dd5be8768.json",
+  "parameterValues" : [ ]
+}

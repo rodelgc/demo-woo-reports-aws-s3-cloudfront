@@ -1,0 +1,225 @@
+{
+  "uid" : "a346ba9c7e8ed376",
+  "name" : "can create simple non-virtual product",
+  "fullName" : "can create simple non-virtual product",
+  "historyId" : "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can create simple non-virtual product",
+  "time" : {
+    "start" : 1654493274405,
+    "stop" : 1654493292447,
+    "duration" : 18042
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+  "statusTrace" : "\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/create-simple-product.spec.js:94:56",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+    "statusTrace" : "\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/create-simple-product.spec.js:94:56",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493274405,
+        "stop" : 1654493274546,
+        "duration" : 141
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493274412,
+          "stop" : 1654493274546,
+          "duration" : 134
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/post-new.php?post_type=product)",
+      "time" : {
+        "start" : 1654493274546,
+        "stop" : 1654493283863,
+        "duration" : 9317
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#title)",
+      "time" : {
+        "start" : 1654493283864,
+        "stop" : 1654493284294,
+        "duration" : 430
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#_regular_price)",
+      "time" : {
+        "start" : 1654493284296,
+        "stop" : 1654493284354,
+        "duration" : 58
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(#publish)",
+      "time" : {
+        "start" : 1654493284357,
+        "stop" : 1654493284812,
+        "duration" : 455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1654493284813,
+        "stop" : 1654493289858,
+        "duration" : 5045
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493289858,
+        "stop" : 1654493292441,
+        "duration" : 2583
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493290320,
+          "stop" : 1654493290326,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "afterAll hook",
+        "time" : {
+          "start" : 1654493290329,
+          "stop" : 1654493292358,
+          "duration" : 2029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4d055a4b3aa57253",
+      "name" : "trace",
+      "source" : "4d055a4b3aa57253.ZIP",
+      "type" : "application/zip",
+      "size" : 2000395
+    }, {
+      "uid" : "340bf902d6b0d3af",
+      "name" : "screenshot",
+      "source" : "340bf902d6b0d3af.png",
+      "type" : "image/png",
+      "size" : 129925
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-simple-product.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Add New Simple Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a346ba9c7e8ed376.json",
+  "parameterValues" : [ ]
+}

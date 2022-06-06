@@ -1,0 +1,225 @@
+{
+  "uid" : "7f5012a0bfa560ef",
+  "name" : "can create new coupon",
+  "fullName" : "can create new coupon",
+  "historyId" : "Chrome merchant/create-coupon.spec.js Add New Coupon Page can create new coupon",
+  "time" : {
+    "start" : 1654493227148,
+    "stop" : 1654493239916,
+    "duration" : 12768
+  },
+  "status" : "failed",
+  "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Coupon updated.Dismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice.notice-success\"\n",
+  "statusTrace" : "\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/create-coupon.spec.js:18:63",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect(received).toHaveText(expected)\n\nExpected string: \"Coupon updated.Dismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice.notice-success\"\n",
+    "statusTrace" : "\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/create-coupon.spec.js:18:63",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493227149,
+        "stop" : 1654493227261,
+        "duration" : 112
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493227156,
+          "stop" : 1654493227261,
+          "duration" : 105
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/post-new.php?post_type=shop_coupon)",
+      "time" : {
+        "start" : 1654493227261,
+        "stop" : 1654493233459,
+        "duration" : 6198
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#title)",
+      "time" : {
+        "start" : 1654493233459,
+        "stop" : 1654493233629,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#woocommerce-coupon-description)",
+      "time" : {
+        "start" : 1654493233630,
+        "stop" : 1654493233686,
+        "duration" : 56
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(#coupon_amount)",
+      "time" : {
+        "start" : 1654493233687,
+        "stop" : 1654493233715,
+        "duration" : 28
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(#publish)",
+      "time" : {
+        "start" : 1654493233721,
+        "stop" : 1654493233945,
+        "duration" : 224
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toHaveText",
+      "time" : {
+        "start" : 1654493233946,
+        "stop" : 1654493239099,
+        "duration" : 5153
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493239099,
+        "stop" : 1654493239907,
+        "duration" : 808
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493239474,
+          "stop" : 1654493239480,
+          "duration" : 6
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "bb5aa574f7261fb5",
+      "name" : "trace",
+      "source" : "bb5aa574f7261fb5.ZIP",
+      "type" : "application/zip",
+      "size" : 1887907
+    }, {
+      "uid" : "962988e0009dbd3a",
+      "name" : "screenshot",
+      "source" : "962988e0009dbd3a.png",
+      "type" : "image/png",
+      "size" : 138864
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-coupon.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Add New Coupon Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7f5012a0bfa560ef.json",
+  "parameterValues" : [ ]
+}

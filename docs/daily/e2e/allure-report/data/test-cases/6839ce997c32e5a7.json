@@ -1,0 +1,214 @@
+{
+  "uid" : "6839ce997c32e5a7",
+  "name" : "can have a shopper add the simple non-virtual product to the cart",
+  "fullName" : "can have a shopper add the simple non-virtual product to the cart",
+  "historyId" : "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can have a shopper add the simple non-virtual product to the cart",
+  "time" : {
+    "start" : 1654493343015,
+    "stop" : 1654493375678,
+    "duration" : 32663
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493343016,
+        "stop" : 1654493344170,
+        "duration" : 1154
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeAll hook",
+        "time" : {
+          "start" : 1654493343042,
+          "stop" : 1654493343564,
+          "duration" : 522
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493343807,
+          "stop" : 1654493344170,
+          "duration" : 363
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(shop/)",
+      "time" : {
+        "start" : 1654493344173,
+        "stop" : 1654493344783,
+        "duration" : 610
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(h2:has-text(\"Non Virtual Product Name\"))",
+      "time" : {
+        "start" : 1654493344784,
+        "stop" : 1654493365768,
+        "duration" : 20984
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493363543,
+        "stop" : 1654493375672,
+        "duration" : 12129
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "afterAll hook",
+        "time" : {
+          "start" : 1654493363543,
+          "stop" : 1654493365470,
+          "duration" : 1927
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493365756,
+          "stop" : 1654493375631,
+          "duration" : 9875
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "83f081584e3a2794",
+      "name" : "video",
+      "source" : "83f081584e3a2794.webm",
+      "type" : "video/webm",
+      "size" : 215244
+    }, {
+      "uid" : "1a1d70a571699bc0",
+      "name" : "trace",
+      "source" : "1a1d70a571699bc0.ZIP",
+      "type" : "application/zip",
+      "size" : 305877
+    }, {
+      "uid" : "a5ad066be4ca2fca",
+      "name" : "screenshot",
+      "source" : "a5ad066be4ca2fca.png",
+      "type" : "image/png",
+      "size" : 57243
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 8,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-simple-product.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Add New Simple Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "af6621c1414fd43",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493319439,
+        "stop" : 1654493341708,
+        "duration" : 22269
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6839ce997c32e5a7.json",
+  "parameterValues" : [ ]
+}

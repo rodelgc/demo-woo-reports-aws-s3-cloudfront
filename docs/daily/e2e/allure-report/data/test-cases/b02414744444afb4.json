@@ -1,0 +1,244 @@
+{
+  "uid" : "b02414744444afb4",
+  "name" : "Can load Home",
+  "fullName" : "Can load Home",
+  "historyId" : "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Home",
+  "time" : {
+    "start" : 1654493399384,
+    "stop" : 1654493422596,
+    "duration" : 23212
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493399385,
+        "stop" : 1654493404990,
+        "duration" : 5605
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1654493399394,
+          "stop" : 1654493404989,
+          "duration" : 5595
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1654493399674,
+            "stop" : 1654493400000,
+            "duration" : 326
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(wp-admin/admin.php?page=wc-admin)",
+          "time" : {
+            "start" : 1654493400004,
+            "stop" : 1654493404989,
+            "duration" : 4985
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 2,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 3,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/admin.php?page=wc-admin&path=/setup-wizard)",
+      "time" : {
+        "start" : 1654493404990,
+        "stop" : 1654493410440,
+        "duration" : 5450
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Skip setup store details)",
+      "time" : {
+        "start" : 1654493410441,
+        "stop" : 1654493414317,
+        "duration" : 3876
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=No thanks)",
+      "time" : {
+        "start" : 1654493414318,
+        "stop" : 1654493417529,
+        "duration" : 3211
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.goto(wp-admin/admin.php?page=wc-admin)",
+      "time" : {
+        "start" : 1654493417529,
+        "stop" : 1654493421153,
+        "duration" : 3624
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493419387,
+        "stop" : 1654493422580,
+        "duration" : 3193
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493421125,
+          "stop" : 1654493421466,
+          "duration" : 341
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "4e73f9d70446c427",
+      "name" : "video",
+      "source" : "4e73f9d70446c427.webm",
+      "type" : "video/webm",
+      "size" : 393644
+    }, {
+      "uid" : "3420ab38ce8a281c",
+      "name" : "trace",
+      "source" : "3420ab38ce8a281c.ZIP",
+      "type" : "application/zip",
+      "size" : 2044960
+    }, {
+      "uid" : "7de9fb6e4f16fc84",
+      "name" : "screenshot",
+      "source" : "7de9fb6e4f16fc84.png",
+      "type" : "image/png",
+      "size" : 47469
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 10,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/page-loads.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "WooCommerce Page Load > Load WooCommerce sub pages"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a7f367b89288278a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493376969,
+        "stop" : 1654493398333,
+        "duration" : 21364
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b02414744444afb4.json",
+  "parameterValues" : [ ]
+}

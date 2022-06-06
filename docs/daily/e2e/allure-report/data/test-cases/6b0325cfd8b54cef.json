@@ -1,0 +1,259 @@
+{
+  "uid" : "6b0325cfd8b54cef",
+  "name" : "Saving valid bank account transfer details enables the payment method",
+  "fullName" : "Saving valid bank account transfer details enables the payment method",
+  "historyId" : "Chrome admin-tasks/payment.spec.js Payment setup task Saving valid bank account transfer details enables the payment method",
+  "time" : {
+    "start" : 1654493287887,
+    "stop" : 1654493308626,
+    "duration" : 20739
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493287887,
+        "stop" : 1654493299658,
+        "duration" : 11771
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1654493287889,
+          "stop" : 1654493299658,
+          "duration" : 11769
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "browserContext.newPage",
+          "time" : {
+            "start" : 1654493288326,
+            "stop" : 1654493288892,
+            "duration" : 566
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.goto(wp-admin/admin.php?page=wc-admin&path=/setup-wizard)",
+          "time" : {
+            "start" : 1654493288903,
+            "stop" : 1654493293591,
+            "duration" : 4688
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.click(text=Skip setup store details)",
+          "time" : {
+            "start" : 1654493293593,
+            "stop" : 1654493297864,
+            "duration" : 4271
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.click(text=No thanks)",
+          "time" : {
+            "start" : 1654493297865,
+            "stop" : 1654493299657,
+            "duration" : 1792
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 5,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/admin.php?page=wc-admin&task=payments&id=bacs)",
+      "time" : {
+        "start" : 1654493299660,
+        "stop" : 1654493306204,
+        "duration" : 6544
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(.components-button.is-small.has-icon)",
+      "time" : {
+        "start" : 1654493306206,
+        "stop" : 1654493308336,
+        "duration" : 2130
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.fill(//input[@placeholder=\"Account name\"])",
+      "time" : {
+        "start" : 1654493306207,
+        "stop" : 1654493308337,
+        "duration" : 2130
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493307889,
+        "stop" : 1654493308621,
+        "duration" : 732
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493308329,
+          "stop" : 1654493308403,
+          "duration" : 74
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "739c2d0f32db9d27",
+      "name" : "video",
+      "source" : "739c2d0f32db9d27.webm",
+      "type" : "video/webm",
+      "size" : 319355
+    }, {
+      "uid" : "becc987b8312181",
+      "name" : "trace",
+      "source" : "becc987b8312181.ZIP",
+      "type" : "application/zip",
+      "size" : 1744825
+    }, {
+      "uid" : "c583c815754898fa",
+      "name" : "screenshot",
+      "source" : "c583c815754898fa.png",
+      "type" : "image/png",
+      "size" : 52024
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "admin-tasks/payment.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Payment setup task"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "670674c181ce41e0",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493266573,
+        "stop" : 1654493287244,
+        "duration" : 20671
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b0325cfd8b54cef.json",
+  "parameterValues" : [ ]
+}

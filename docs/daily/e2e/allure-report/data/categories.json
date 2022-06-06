@@ -1,0 +1,855 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expect(received).toHaveText(expected)\n\nExpected string: \"Coupon updated.Dismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice.notice-success\"\n",
+      "children" : [ {
+        "name" : "can create new coupon",
+        "uid" : "679206a22f1e32ad",
+        "parentUid" : "583bf0fb55832441581e6ef39e42d55d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493241291,
+          "stop" : 1654493254357,
+          "duration" : 13066
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "583bf0fb55832441581e6ef39e42d55d"
+    }, {
+      "name" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+      "children" : [ {
+        "name" : "can create simple non-virtual product",
+        "uid" : "2fb771dd5be8768",
+        "parentUid" : "54c2461da68d19df312337f0af37c9bb",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493294398,
+          "stop" : 1654493317725,
+          "duration" : 23327
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "54c2461da68d19df312337f0af37c9bb"
+    }, {
+      "name" : "expect(received).toHaveText(expected)\n\nExpected string: \"Tax Rate Simple\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"th.line_tax >> nth=0\"\n",
+      "children" : [ {
+        "name" : "can create new complex order with multiple product types & tax classes",
+        "uid" : "9adf3ea18c5de1d1",
+        "parentUid" : "8dbcbd3778f4981a71436015007ad1b2",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493301747,
+          "stop" : 1654493344572,
+          "duration" : 42825
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8dbcbd3778f4981a71436015007ad1b2"
+    }, {
+      "name" : "connect ECONNREFUSED 127.0.0.1:8084",
+      "children" : [ {
+        "name" : "allows customer to benefit from a free Local pickup if in SF",
+        "uid" : "2c4b7674a1eea12b",
+        "parentUid" : "97cfbf9b47894d8f6377e3733958eca3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493352735,
+          "stop" : 1654493352792,
+          "duration" : 57
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allows customer to benefit from a free Free shipping if in CA",
+        "uid" : "dfa8356aeef1fd75",
+        "parentUid" : "97cfbf9b47894d8f6377e3733958eca3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493355089,
+          "stop" : 1654493355219,
+          "duration" : 130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allows customer to pay for a Flat rate shipping method",
+        "uid" : "ba426d17028782aa",
+        "parentUid" : "97cfbf9b47894d8f6377e3733958eca3",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493357233,
+          "stop" : 1654493357310,
+          "duration" : 77
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "97cfbf9b47894d8f6377e3733958eca3"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \"td.column-receiver\" resolved to 7 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=1\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=2\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=3\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"td.column-receiver\"\n  strict mode violation: \"td.column-receiver\" resolved to 7 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=1\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=2\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=3\")\n\n============================================================",
+      "children" : [ {
+        "name" : "can resend new order notification",
+        "uid" : "b3296c8c2f2e9b12",
+        "parentUid" : "3700c021589fee92f11d05993e69a3e8",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493367917,
+          "stop" : 1654493386638,
+          "duration" : 18721
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3700c021589fee92f11d05993e69a3e8"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \".order_number > a.order-view\" resolved to 3 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#89\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#81 John Doe\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \".order_number > a.order-view\"\n  strict mode violation: \".order_number > a.order-view\" resolved to 3 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#89\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#81 John Doe\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n============================================================",
+      "children" : [ {
+        "name" : "can search for order containing \"John\" as the billing first name",
+        "uid" : "b80caad1f3ab9df3",
+        "parentUid" : "8d67f734ad737b607a77e0e4e134cd0d",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493377939,
+          "stop" : 1654493401918,
+          "duration" : 23979
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8d67f734ad737b607a77e0e4e134cd0d"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \"td.column-receiver\" resolved to 9 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\".receiver >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(3) > .receiver\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(4) > .receiver\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(5) > .receiver\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(6) > .receiver\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    8) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    9) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(9) > .receiver\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"td.column-receiver\"\n  strict mode violation: \"td.column-receiver\" resolved to 9 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\".receiver >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(3) > .receiver\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(4) > .receiver\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(5) > .receiver\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(6) > .receiver\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    8) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    9) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(9) > .receiver\")\n\n============================================================",
+      "children" : [ {
+        "name" : "can email invoice/order details to customer",
+        "uid" : "565cda0c45a5c1d4",
+        "parentUid" : "b1844e93f8290f9a8d7e818df721afa1",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493416473,
+          "stop" : 1654493443734,
+          "duration" : 27261
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b1844e93f8290f9a8d7e818df721afa1"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \"mark.order-status > span\" resolved to 2 elements:\n    1) <span>Pending payment</span> aka playwright.$(\"#post-120 >> text=Pending payment\")\n    2) <span>Pending payment</span> aka playwright.$(\"#post-109 >> text=Pending payment\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"mark.order-status > span\"\n  strict mode violation: \"mark.order-status > span\" resolved to 2 elements:\n    1) <span>Pending payment</span> aka playwright.$(\"#post-120 >> text=Pending payment\")\n    2) <span>Pending payment</span> aka playwright.$(\"#post-109 >> text=Pending payment\")\n\n============================================================",
+      "children" : [ {
+        "name" : "should filter by Pending payment",
+        "uid" : "1103afbbab7493ae",
+        "parentUid" : "534a3b6925294962cbcc69796cb8bcd9",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493433405,
+          "stop" : 1654493457539,
+          "duration" : 24134
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "534a3b6925294962cbcc69796cb8bcd9"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \".order_number > a.order-view\" resolved to 2 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#120 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \".order_number > a.order-view\"\n  strict mode violation: \".order_number > a.order-view\" resolved to 2 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#120 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n============================================================",
+      "children" : [ {
+        "name" : "can search for order containing \"Doe\" as the billing last name",
+        "uid" : "14d36afa28394e7e",
+        "parentUid" : "21b207511cdfaef387925f31e9ec379c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493436250,
+          "stop" : 1654493467245,
+          "duration" : 30995
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "21b207511cdfaef387925f31e9ec379c"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \"mark.order-status > span\" resolved to 3 elements:\n    1) <span>Processing</span> aka playwright.$(\"#post-172 >> text=Processing\")\n    2) <span>Processing</span> aka playwright.$(\"#post-77 >> text=Processing\")\n    3) <span>Processing</span> aka playwright.$(\"#post-23 >> text=Processing\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"mark.order-status > span\"\n  strict mode violation: \"mark.order-status > span\" resolved to 3 elements:\n    1) <span>Processing</span> aka playwright.$(\"#post-172 >> text=Processing\")\n    2) <span>Processing</span> aka playwright.$(\"#post-77 >> text=Processing\")\n    3) <span>Processing</span> aka playwright.$(\"#post-23 >> text=Processing\")\n\n============================================================",
+      "children" : [ {
+        "name" : "should filter by Processing",
+        "uid" : "f8a1d7d3059fba49",
+        "parentUid" : "8afe75e910e67bed84403f829b4bc765",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493483580,
+          "stop" : 1654493505735,
+          "duration" : 22155
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "8afe75e910e67bed84403f829b4bc765"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "children" : [ {
+        "name" : "can update settings",
+        "uid" : "8242e919b3d96f17",
+        "parentUid" : "fd4181b36458b26a252ca3846b4d3b1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493548777,
+          "stop" : 1654493560423,
+          "duration" : 11646
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can update settings",
+        "uid" : "ca2e17a6930e1dd0",
+        "parentUid" : "fd4181b36458b26a252ca3846b4d3b1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493557174,
+          "stop" : 1654493570047,
+          "duration" : 12873
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can enable tax calculation",
+        "uid" : "87ee1c708a8d46cc",
+        "parentUid" : "fd4181b36458b26a252ca3846b4d3b1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493560657,
+          "stop" : 1654493572589,
+          "duration" : 11932
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can set tax options",
+        "uid" : "94cb849c65dfcab2",
+        "parentUid" : "fd4181b36458b26a252ca3846b4d3b1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493579324,
+          "stop" : 1654493583549,
+          "duration" : 4225
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can add tax classes",
+        "uid" : "e0aae71842366336",
+        "parentUid" : "fd4181b36458b26a252ca3846b4d3b1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493590501,
+          "stop" : 1654493594597,
+          "duration" : 4096
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can remove tax classes",
+        "uid" : "bfd9ab5183ab77b8",
+        "parentUid" : "fd4181b36458b26a252ca3846b4d3b1c",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493615709,
+          "stop" : 1654493618495,
+          "duration" : 2786
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "fd4181b36458b26a252ca3846b4d3b1c"
+    }, {
+      "name" : "expect.toContainText: Error: strict mode violation: \".order_number > a.order-view\" resolved to 4 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#208 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#206\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#205\")\")\n    4) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \".order_number > a.order-view\"\n  strict mode violation: \".order_number > a.order-view\" resolved to 4 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#208 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#206\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#205\")\")\n    4) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n============================================================",
+      "children" : [ {
+        "name" : "can search for order containing \"john.doe@example.com\" as the billing email",
+        "uid" : "49358f60b878e6e1",
+        "parentUid" : "1a1edf805548943f8961d66638df643f",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493568549,
+          "stop" : 1654493580561,
+          "duration" : 12012
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1a1edf805548943f8961d66638df643f"
+    }, {
+      "name" : "expect(received).toContainText(expected)\n\nExpected string: \"Fancy rates\"\nReceived string: \"\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"ul.subsubsub > li > a.current\"\n",
+      "children" : [ {
+        "name" : "can set rate settings",
+        "uid" : "8e8498756084eb59",
+        "parentUid" : "7b1a6f50a2264ad02d2171906afeb9ae",
+        "status" : "failed",
+        "time" : {
+          "start" : 1654493602974,
+          "stop" : 1654493611538,
+          "duration" : 8564
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "7b1a6f50a2264ad02d2171906afeb9ae"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  }, {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "Timeout of 20000ms exceeded.",
+      "children" : [ {
+        "name" : "Can visit the payment setup task from the homescreen if the setup wizard has been skipped",
+        "uid" : "7f7aa978761b7df4",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493243232,
+          "stop" : 1654493264543,
+          "duration" : 21311
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "add shipping zone for San Francisco with free Local pickup",
+        "uid" : "1d89b2529ca30a58",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493261146,
+          "stop" : 1654493287276,
+          "duration" : 26130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can complete the product types section",
+        "uid" : "30a03844bcb49224",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493262901,
+          "stop" : 1654493287225,
+          "duration" : 24324
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can create product, attributes and variations",
+        "uid" : "4e45d7d7107f4dc0",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493282942,
+          "stop" : 1654493307908,
+          "duration" : 24966
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Saving valid bank account transfer details enables the payment method",
+        "uid" : "6b0325cfd8b54cef",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493287887,
+          "stop" : 1654493308626,
+          "duration" : 20739
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Enabling cash on delivery enables the payment method",
+        "uid" : "597dcd0690348f73",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493331449,
+          "stop" : 1654493355471,
+          "duration" : 24022
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can set the variation attributes, bulk edit variations",
+        "uid" : "fef8cb313eb30553",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493332047,
+          "stop" : 1654493359640,
+          "duration" : 27593
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can have a shopper add the simple non-virtual product to the cart",
+        "uid" : "6839ce997c32e5a7",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493343015,
+          "stop" : 1654493375678,
+          "duration" : 32663
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can unselect all business features and continue",
+        "uid" : "f258220f8a24df31",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493346015,
+          "stop" : 1654493371380,
+          "duration" : 25365
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should filter by All",
+        "uid" : "29d8b62655b63d5c",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493379977,
+          "stop" : 1654493408417,
+          "duration" : 28440
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : true,
+        "parameters" : [ ]
+      }, {
+        "name" : "can delete all variations",
+        "uid" : "4d6850fbf2efbaf7",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493385711,
+          "stop" : 1654493412224,
+          "duration" : 26513
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can edit downloadable product permissions",
+        "uid" : "c43dfa4b9dcc2d0b",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493391825,
+          "stop" : 1654493425043,
+          "duration" : 33218
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "Can load Home",
+        "uid" : "b02414744444afb4",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493399384,
+          "stop" : 1654493422596,
+          "duration" : 23212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can choose not to install any extensions",
+        "uid" : "66e367da0f80b76a",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493425834,
+          "stop" : 1654493446815,
+          "duration" : 20981
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can manually add a variation",
+        "uid" : "90c7dbebee2f76f",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493437674,
+          "stop" : 1654493461227,
+          "duration" : 23553
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can upload the CSV file and import products",
+        "uid" : "411a7bff3476e7d0",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493456600,
+          "stop" : 1654493482985,
+          "duration" : 26385
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can revoke downloadable product permissions",
+        "uid" : "66fadd0b563a6890",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493460031,
+          "stop" : 1654493488758,
+          "duration" : 28727
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should display the choose payments task, and not the WC Pay task",
+        "uid" : "3ef60b6bbef6c0cd",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493470660,
+          "stop" : 1654493492361,
+          "duration" : 21701
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can manage stock at variation level",
+        "uid" : "fff5eb3ed5ba94d4",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493486107,
+          "stop" : 1654493510171,
+          "duration" : 24064
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can view a product's details after search",
+        "uid" : "af28a286de7b2b53",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493486988,
+          "stop" : 1654493512183,
+          "duration" : 25195
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can override the existing products via CSV import",
+        "uid" : "136ea23fbbf4363b",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493510949,
+          "stop" : 1654493541950,
+          "duration" : 31001
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can setup shipping",
+        "uid" : "465edeb5f3efcdd5",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493517826,
+          "stop" : 1654493538881,
+          "duration" : 21055
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "should not allow downloading a product if download attempts are exceeded",
+        "uid" : "f40f47053f468e4b",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493519571,
+          "stop" : 1654493556194,
+          "duration" : 36623
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can set variation defaults",
+        "uid" : "8c64d7fff758097",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493536298,
+          "stop" : 1654493559675,
+          "duration" : 23377
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "can remove a variation",
+        "uid" : "1567422a52836f02",
+        "parentUid" : "6caa4d165ac30a7dc163dd8fb747b159",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493582071,
+          "stop" : 1654493607146,
+          "duration" : 25075
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "6caa4d165ac30a7dc163dd8fb747b159"
+    }, {
+      "name" : "Timeout of 20000ms exceeded while running fixture \"context\" teardown.",
+      "children" : [ {
+        "name" : "add shipping zone for California with Free shipping",
+        "uid" : "73ad45d66f48f333",
+        "parentUid" : "65587837337eaa979b923069585b73e2",
+        "status" : "broken",
+        "time" : {
+          "start" : 1654493312308,
+          "stop" : 1654493332349,
+          "duration" : 20041
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 1,
+        "retriesStatusChange" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "65587837337eaa979b923069585b73e2"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  } ]
+}

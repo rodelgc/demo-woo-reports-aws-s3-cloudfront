@@ -1,0 +1,229 @@
+{
+  "uid" : "fff5eb3ed5ba94d4",
+  "name" : "can manage stock at variation level",
+  "fullName" : "can manage stock at variation level",
+  "historyId" : "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can manage stock at variation level",
+  "time" : {
+    "start" : 1654493486107,
+    "stop" : 1654493510171,
+    "duration" : 24064
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493486108,
+        "stop" : 1654493486849,
+        "duration" : 741
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493486392,
+          "stop" : 1654493486849,
+          "duration" : 457
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/edit.php?post_type=product)",
+      "time" : {
+        "start" : 1654493486860,
+        "stop" : 1654493492594,
+        "duration" : 5734
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(a:has-text(\"Manual Variable Product\"))",
+      "time" : {
+        "start" : 1654493492595,
+        "stop" : 1654493496883,
+        "duration" : 4288
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(a[href=\"#variable_product_options\"])",
+      "time" : {
+        "start" : 1654493496884,
+        "stop" : 1654493499088,
+        "duration" : 2204
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(div.variations-pagenav > span > a.expand_all)",
+      "time" : {
+        "start" : 1654493499090,
+        "stop" : 1654493506738,
+        "duration" : 7648
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493506110,
+        "stop" : 1654493510159,
+        "duration" : 4049
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493506733,
+          "stop" : 1654493507665,
+          "duration" : 932
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "afterAll hook",
+        "time" : {
+          "start" : 1654493507671,
+          "stop" : 1654493510114,
+          "duration" : 2443
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "1b871a8712320ac3",
+      "name" : "video",
+      "source" : "1b871a8712320ac3.webm",
+      "type" : "video/webm",
+      "size" : 691654
+    }, {
+      "uid" : "d2c961dfba325cb2",
+      "name" : "trace",
+      "source" : "d2c961dfba325cb2.ZIP",
+      "type" : "application/zip",
+      "size" : 3748470
+    }, {
+      "uid" : "aeed49049460aaa4",
+      "name" : "screenshot",
+      "source" : "aeed49049460aaa4.png",
+      "type" : "image/png",
+      "size" : 131706
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-variable-product.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Add New Variable Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "ec84ec3fc60224d5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493462475,
+        "stop" : 1654493484847,
+        "duration" : 22372
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "fff5eb3ed5ba94d4.json",
+  "parameterValues" : [ ]
+}

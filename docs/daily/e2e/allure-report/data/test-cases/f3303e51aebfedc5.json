@@ -1,0 +1,285 @@
+{
+  "uid" : "f3303e51aebfedc5",
+  "name" : "can set tax options",
+  "fullName" : "can set tax options",
+  "historyId" : "Chrome merchant/settings-tax.spec.js WooCommerce Tax Settings can set tax options",
+  "time" : {
+    "start" : 1654493573345,
+    "stop" : 1654493578612,
+    "duration" : 5267
+  },
+  "status" : "failed",
+  "statusMessage" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+  "statusTrace" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================\n    at captureStackTrace (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/util.js:98:56)\n    at Object.toMatchText (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/matchers/toMatchText.js:46:68)\n    at Object.toContainText (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/matchers/matchers.js:142:37)\n    at Proxy.<anonymous> (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/expect.js:214:32)\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/settings-tax.spec.js:56:48\n    at /Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:388:9\n    at TestInfoImpl._runFn (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/testInfo.js:166:7)\n    at /Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:344:26\n    at TimeoutManager.runWithTimeout (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/timeoutManager.js:70:7)\n    at TestInfoImpl._runWithTimeout (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/testInfo.js:154:26)\n    at WorkerRunner._runTest (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:326:5)\n    at WorkerRunner.runTestGroup (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:195:11)\n    at process.<anonymous> (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/worker.js:94:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+    "statusTrace" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================\n    at captureStackTrace (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/util.js:98:56)\n    at Object.toMatchText (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/matchers/toMatchText.js:46:68)\n    at Object.toContainText (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/matchers/matchers.js:142:37)\n    at Proxy.<anonymous> (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/expect.js:214:32)\n    at /Users/rodel/woocommerce/plugins/woocommerce/e2e/tests/merchant/settings-tax.spec.js:56:48\n    at /Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:388:9\n    at TestInfoImpl._runFn (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/testInfo.js:166:7)\n    at /Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:344:26\n    at TimeoutManager.runWithTimeout (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/timeoutManager.js:70:7)\n    at TestInfoImpl._runWithTimeout (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/testInfo.js:154:26)\n    at WorkerRunner._runTest (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:326:5)\n    at WorkerRunner.runTestGroup (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/workerRunner.js:195:11)\n    at process.<anonymous> (/Users/rodel/woocommerce/node_modules/.pnpm/@playwright+test@1.22.1/node_modules/@playwright/test/lib/worker.js:94:5)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493573347,
+        "stop" : 1654493573979,
+        "duration" : 632
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493573603,
+          "stop" : 1654493573979,
+          "duration" : 376
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/admin.php?page=wc-settings&tab=tax)",
+      "time" : {
+        "start" : 1654493573982,
+        "stop" : 1654493575828,
+        "duration" : 1846
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1654493575831,
+        "stop" : 1654493575899,
+        "duration" : 68
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.check(text=No, I will enter prices exclusive of tax)",
+      "time" : {
+        "start" : 1654493575900,
+        "stop" : 1654493575926,
+        "duration" : 26
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.selectOption(#woocommerce_tax_based_on)",
+      "time" : {
+        "start" : 1654493575927,
+        "stop" : 1654493575957,
+        "duration" : 30
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.selectOption(#woocommerce_shipping_tax_class)",
+      "time" : {
+        "start" : 1654493575958,
+        "stop" : 1654493576021,
+        "duration" : 63
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.selectOption(#woocommerce_tax_display_shop)",
+      "time" : {
+        "start" : 1654493576021,
+        "stop" : 1654493576156,
+        "duration" : 135
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.selectOption(#woocommerce_tax_display_cart)",
+      "time" : {
+        "start" : 1654493576157,
+        "stop" : 1654493576182,
+        "duration" : 25
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.selectOption(#woocommerce_tax_total_display)",
+      "time" : {
+        "start" : 1654493576183,
+        "stop" : 1654493576204,
+        "duration" : 21
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(text=Save changes)",
+      "time" : {
+        "start" : 1654493576205,
+        "stop" : 1654493577660,
+        "duration" : 1455
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "expect.toContainText",
+      "time" : {
+        "start" : 1654493577660,
+        "stop" : 1654493578091,
+        "duration" : 431
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493578091,
+        "stop" : 1654493578606,
+        "duration" : 515
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493578516,
+          "stop" : 1654493578524,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "9e8b31de6f556fe2",
+      "name" : "trace",
+      "source" : "9e8b31de6f556fe2.ZIP",
+      "type" : "application/zip",
+      "size" : 1971567
+    }, {
+      "uid" : "c7e6d30fea81997e",
+      "name" : "screenshot",
+      "source" : "c7e6d30fea81997e.png",
+      "type" : "image/png",
+      "size" : 132934
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 14,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/settings-tax.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "WooCommerce Tax Settings"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f3303e51aebfedc5.json",
+  "parameterValues" : [ ]
+}

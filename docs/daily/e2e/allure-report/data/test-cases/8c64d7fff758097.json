@@ -1,0 +1,229 @@
+{
+  "uid" : "8c64d7fff758097",
+  "name" : "can set variation defaults",
+  "fullName" : "can set variation defaults",
+  "historyId" : "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can set variation defaults",
+  "time" : {
+    "start" : 1654493536298,
+    "stop" : 1654493559675,
+    "duration" : 23377
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493536300,
+        "stop" : 1654493536964,
+        "duration" : 664
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493536541,
+          "stop" : 1654493536964,
+          "duration" : 423
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/edit.php?post_type=product)",
+      "time" : {
+        "start" : 1654493536968,
+        "stop" : 1654493544863,
+        "duration" : 7895
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "locator.click(a:has-text(\"Manual Variable Product\"))",
+      "time" : {
+        "start" : 1654493544864,
+        "stop" : 1654493548774,
+        "duration" : 3910
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.click(a[href=\"#variable_product_options\"])",
+      "time" : {
+        "start" : 1654493548775,
+        "stop" : 1654493551178,
+        "duration" : 2403
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "page.selectOption(select[name=\"default_attribute_attr-1\"])",
+      "time" : {
+        "start" : 1654493551179,
+        "stop" : 1654493556957,
+        "duration" : 5778
+      },
+      "status" : "failed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493556301,
+        "stop" : 1654493559662,
+        "duration" : 3361
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493556950,
+          "stop" : 1654493557979,
+          "duration" : 1029
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "afterAll hook",
+        "time" : {
+          "start" : 1654493557985,
+          "stop" : 1654493559611,
+          "duration" : 1626
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "70aa514c919cae",
+      "name" : "video",
+      "source" : "70aa514c919cae.webm",
+      "type" : "video/webm",
+      "size" : 612407
+    }, {
+      "uid" : "8314efeed9ff4b54",
+      "name" : "trace",
+      "source" : "8314efeed9ff4b54.ZIP",
+      "type" : "application/zip",
+      "size" : 3923916
+    }, {
+      "uid" : "8a22cf831e2bb15a",
+      "name" : "screenshot",
+      "source" : "8a22cf831e2bb15a.png",
+      "type" : "image/png",
+      "size" : 123793
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 9,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-variable-product.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Add New Variable Product Page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "19d69679608c1273",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493511319,
+        "stop" : 1654493534643,
+        "duration" : 23324
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8c64d7fff758097.json",
+  "parameterValues" : [ ]
+}

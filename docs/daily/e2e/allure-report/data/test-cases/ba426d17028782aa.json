@@ -1,0 +1,136 @@
+{
+  "uid" : "ba426d17028782aa",
+  "name" : "allows customer to pay for a Flat rate shipping method",
+  "fullName" : "allows customer to pay for a Flat rate shipping method",
+  "historyId" : "Chrome merchant/create-shipping-zones.spec.js Verifies shipping options from customer perspective allows customer to pay for a Flat rate shipping method",
+  "time" : {
+    "start" : 1654493357233,
+    "stop" : 1654493357310,
+    "duration" : 77
+  },
+  "status" : "failed",
+  "statusMessage" : "connect ECONNREFUSED 127.0.0.1:8084",
+  "statusTrace" : "\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 1,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "connect ECONNREFUSED 127.0.0.1:8084",
+    "statusTrace" : "\n    at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1187:16)",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493357233
+      },
+      "status" : "unknown",
+      "steps" : [ {
+        "name" : "beforeAll hook",
+        "time" : {
+          "start" : 1654493357233,
+          "stop" : 1654493357247,
+          "duration" : 14
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493357301,
+        "stop" : 1654493357309,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "afterAll hook",
+        "time" : {
+          "start" : 1654493357302,
+          "stop" : 1654493357307,
+          "duration" : 5
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/create-shipping-zones.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "Verifies shipping options from customer perspective"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a455644dd05894fb",
+      "status" : "failed",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:8084",
+      "time" : {
+        "start" : 1654493356208,
+        "stop" : 1654493356262,
+        "duration" : 54
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "ba426d17028782aa.json",
+  "parameterValues" : [ ]
+}

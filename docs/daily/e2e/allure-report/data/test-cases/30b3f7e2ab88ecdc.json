@@ -1,0 +1,238 @@
+{
+  "uid" : "30b3f7e2ab88ecdc",
+  "name" : "should not allow downloading a product if download attempts are exceeded",
+  "fullName" : "should not allow downloading a product if download attempts are exceeded",
+  "historyId" : "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions should not allow downloading a product if download attempts are exceeded",
+  "time" : {
+    "start" : 1654493490160,
+    "stop" : 1654493518188,
+    "duration" : 28028
+  },
+  "status" : "broken",
+  "statusMessage" : "Timeout of 20000ms exceeded.",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 20000ms exceeded.",
+    "steps" : [ {
+      "name" : "Before Hooks",
+      "time" : {
+        "start" : 1654493490160,
+        "stop" : 1654493505943,
+        "duration" : 15783
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "beforeEach hook",
+        "time" : {
+          "start" : 1654493490161,
+          "stop" : 1654493505294,
+          "duration" : 15133
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      }, {
+        "name" : "browserContext.newPage",
+        "time" : {
+          "start" : 1654493505525,
+          "stop" : 1654493505943,
+          "duration" : 418
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 2,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "page.goto(wp-admin/post.php?post=187&action=edit)",
+      "time" : {
+        "start" : 1654493505946,
+        "stop" : 1654493510833,
+        "duration" : 4887
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "After Hooks",
+      "time" : {
+        "start" : 1654493510171,
+        "stop" : 1654493518179,
+        "duration" : 8008
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "afterEach hook",
+        "time" : {
+          "start" : 1654493510171,
+          "stop" : 1654493517444,
+          "duration" : 7273
+        },
+        "status" : "passed",
+        "steps" : [ {
+          "name" : "page.click(h3.fixed)",
+          "time" : {
+            "start" : 1654493510834,
+            "stop" : 1654493511114,
+            "duration" : 280
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.fill(input[name=\"downloads_remaining[0]\"])",
+          "time" : {
+            "start" : 1654493511114,
+            "stop" : 1654493511170,
+            "duration" : 56
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.click(button.save_order)",
+          "time" : {
+            "start" : 1654493511170,
+            "stop" : 1654493515111,
+            "duration" : 3941
+          },
+          "status" : "passed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        }, {
+          "name" : "page.click(h3.fixed)",
+          "time" : {
+            "start" : 1654493515111,
+            "stop" : 1654493517906,
+            "duration" : 2795
+          },
+          "status" : "failed",
+          "steps" : [ ],
+          "attachments" : [ ],
+          "parameters" : [ ],
+          "stepsCount" : 0,
+          "attachmentsCount" : 0,
+          "shouldDisplayMessage" : false,
+          "hasContent" : false
+        } ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 4,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true
+      }, {
+        "name" : "browserContext.close",
+        "time" : {
+          "start" : 1654493517900,
+          "stop" : 1654493517908,
+          "duration" : 8
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 6,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "7abb936c47e66111",
+      "name" : "trace",
+      "source" : "7abb936c47e66111.ZIP",
+      "type" : "application/zip",
+      "size" : 2697761
+    }, {
+      "uid" : "e19c83704a84ba5c",
+      "name" : "screenshot",
+      "source" : "e19c83704a84ba5c.png",
+      "type" : "image/png",
+      "size" : 107431
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 11,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "language",
+    "value" : "JavaScript"
+  }, {
+    "name" : "framework",
+    "value" : "Playwright"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Chrome"
+  }, {
+    "name" : "suite",
+    "value" : "merchant/order-edit.spec.js"
+  }, {
+    "name" : "subSuite",
+    "value" : "WooCommerce Orders > Edit order > Downloadable product permissions"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "30b3f7e2ab88ecdc.json",
+  "parameterValues" : [ ]
+}

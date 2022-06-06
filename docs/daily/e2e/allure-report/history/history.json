@@ -1,0 +1,2537 @@
+{
+  "Chrome admin-analytics/analytics-overview.spec.js Analytics pages a user should see 3 sections by default - Performance, Charts, and Leaderboards" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7952caa218b6bd3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222183,
+        "stop" : 1654493230368,
+        "duration" : 8185
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js A japanese store can complete the selective bundle install but does not include WCPay. can choose not to install any extensions" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66e367da0f80b76a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493425834,
+        "stop" : 1654493446815,
+        "duration" : 20981
+      }
+    } ]
+  },
+  "Chrome merchant/order-coupon.spec.js WooCommerce Orders > Apply Coupon can apply a coupon" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "edec2dd7de1dd5d3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493330970,
+        "stop" : 1654493344759,
+        "duration" : 13789
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Orders page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "330d733d08420e04",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493242539,
+        "stop" : 1654493249411,
+        "duration" : 6872
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Linwood Ave\" as the shipping second address" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2cab1038dee66828",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493603116,
+        "stop" : 1654493606480,
+        "duration" : 3364
+      }
+    } ]
+  },
+  "Chrome basic.spec.js Load the home page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ae2c8002599054bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222156,
+        "stop" : 1654493224705,
+        "duration" : 2549
+      }
+    } ]
+  },
+  "Chrome admin-tasks/payment.spec.js Payment setup task Can visit the payment setup task from the homescreen if the setup wizard has been skipped" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "7f7aa978761b7df4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493243232,
+        "stop" : 1654493264543,
+        "duration" : 21311
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-classes.spec.js Merchant can add shipping classes can add shipping classes" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "583c99c2a205d5a4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493232760,
+        "stop" : 1654493241011,
+        "duration" : 8251
+      }
+    } ]
+  },
+  "Chrome merchant/settings-tax.spec.js WooCommerce Tax Settings can set tax options" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "94cb849c65dfcab2",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493579324,
+        "stop" : 1654493583549,
+        "duration" : 4225
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js Store owner can go through setup Task List can setup shipping" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "465edeb5f3efcdd5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493517826,
+        "stop" : 1654493538881,
+        "duration" : 21055
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"CA\" as the billing state" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "126ff3340a1ea1b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493589712,
+        "stop" : 1654493593991,
+        "duration" : 4279
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-zones.spec.js WooCommerce Shipping Settings - Add new shipping zone add shipping zone for San Francisco with free Local pickup" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1d89b2529ca30a58",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493261146,
+        "stop" : 1654493287276,
+        "duration" : 26130
+      }
+    } ]
+  },
+  "Chrome merchant/create-order.spec.js WooCommerce Orders > Add new order can create new complex order with multiple product types & tax classes" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9adf3ea18c5de1d1",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"Tax Rate Simple\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"th.line_tax >> nth=0\"\n",
+      "time" : {
+        "start" : 1654493301747,
+        "stop" : 1654493344572,
+        "duration" : 42825
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Oxford Ave\" as the shipping first address" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "23c4000840047f8e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493600302,
+        "stop" : 1654493603115,
+        "duration" : 2813
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/basic-setup.spec.js Store owner can finish initial store setup can configure permalink settings" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ad7ebdcdc027d9b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493230299,
+        "stop" : 1654493235959,
+        "duration" : 5660
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Doe\" as the billing last name" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "14d36afa28394e7e",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \".order_number > a.order-view\" resolved to 2 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#120 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \".order_number > a.order-view\"\n  strict mode violation: \".order_number > a.order-view\" resolved to 2 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#120 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493436250,
+        "stop" : 1654493467245,
+        "duration" : 30995
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Products sub pages Can load Tags" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cf8ab45641b30e7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493532441,
+        "stop" : 1654493545019,
+        "duration" : 12578
+      }
+    } ]
+  },
+  "Chrome basic.spec.js Sign in as customer Load customer my account page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9b10a78b84e633ab",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493230206,
+        "stop" : 1654493232757,
+        "duration" : 2551
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js Store owner can complete onboarding wizard can complete the industry section" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ea36d24978387b24",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222176,
+        "stop" : 1654493240512,
+        "duration" : 18336
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by Refunded" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "57eecd9aa7c7680d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493550100,
+        "stop" : 1654493562589,
+        "duration" : 12489
+      }
+    } ]
+  },
+  "Chrome merchant/customer-payment-page.spec.js WooCommerce Merchant Flow: Orders > Customer Payment Page can pay for the order through the customer payment page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4dd06d04d51cb43b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493305961,
+        "stop" : 1654493319379,
+        "duration" : 13418
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions can edit downloadable product permissions" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c43dfa4b9dcc2d0b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493391825,
+        "stop" : 1654493425043,
+        "duration" : 33218
+      }
+    } ]
+  },
+  "Chrome merchant/order-refund.spec.js WooCommerce Orders > Refund an order can delete an issued refund" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "31a3c840f6ac0bbb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493360440,
+        "stop" : 1654493370729,
+        "duration" : 10289
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Customers" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a0b9c70a3d6e39d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493436070,
+        "stop" : 1654493441101,
+        "duration" : 5031
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by Pending payment" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1103afbbab7493ae",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"mark.order-status > span\" resolved to 2 elements:\n    1) <span>Pending payment</span> aka playwright.$(\"#post-120 >> text=Pending payment\")\n    2) <span>Pending payment</span> aka playwright.$(\"#post-109 >> text=Pending payment\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"mark.order-status > span\"\n  strict mode violation: \"mark.order-status > span\" resolved to 2 elements:\n    1) <span>Pending payment</span> aka playwright.$(\"#post-120 >> text=Pending payment\")\n    2) <span>Pending payment</span> aka playwright.$(\"#post-109 >> text=Pending payment\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493433405,
+        "stop" : 1654493457539,
+        "duration" : 24134
+      }
+    } ]
+  },
+  "Chrome merchant/create-coupon.spec.js Add New Coupon Page can create new coupon" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "679206a22f1e32ad",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"Coupon updated.Dismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice.notice-success\"\n",
+      "time" : {
+        "start" : 1654493241291,
+        "stop" : 1654493254357,
+        "duration" : 13066
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-zones.spec.js WooCommerce Shipping Settings - Add new shipping zone add shipping zone for California with Free shipping" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73ad45d66f48f333",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded while running fixture \"context\" teardown.",
+      "time" : {
+        "start" : 1654493312308,
+        "stop" : 1654493332349,
+        "duration" : 20041
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Status" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3d24e4a55d16e3ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493480327,
+        "stop" : 1654493496386,
+        "duration" : 16059
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Automattic\" as the billing company name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "db3436d50d1d170f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493469160,
+        "stop" : 1654493493239,
+        "duration" : 24079
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions should not allow downloading a product if download attempts are exceeded" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f40f47053f468e4b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493519571,
+        "stop" : 1654493556194,
+        "duration" : 36623
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"address2\" as the billing second address" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b2b5fe3206592ed6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493507672,
+        "stop" : 1654493519956,
+        "duration" : 12284
+      }
+    } ]
+  },
+  "Chrome merchant/product-import-csv.spec.js Import Products from a CSV file can upload the CSV file and import products" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "411a7bff3476e7d0",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493456600,
+        "stop" : 1654493482985,
+        "duration" : 26385
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics-overview.spec.js Analytics pages moving sections should not display move up for the top, or move down for the bottom section" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "eb0a247e6e8c969f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493252822,
+        "stop" : 1654493262641,
+        "duration" : 9819
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"John\" as the billing first name" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b80caad1f3ab9df3",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \".order_number > a.order-view\" resolved to 3 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#89\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#81 John Doe\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \".order_number > a.order-view\"\n  strict mode violation: \".order_number > a.order-view\" resolved to 3 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#89\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#81 John Doe\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493377939,
+        "stop" : 1654493401918,
+        "duration" : 23979
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by All" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "29d8b62655b63d5c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493379977,
+        "stop" : 1654493408417,
+        "duration" : 28440
+      }
+    } ]
+  },
+  "Chrome merchant/create-order.spec.js WooCommerce Orders > Add new order can create new order" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c883a1efed582e23",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493227642,
+        "stop" : 1654493259489,
+        "duration" : 31847
+      }
+    } ]
+  },
+  "Chrome admin-tasks/payment.spec.js Payment setup task Saving valid bank account transfer details enables the payment method" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6b0325cfd8b54cef",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493287887,
+        "stop" : 1654493308626,
+        "duration" : 20739
+      }
+    } ]
+  },
+  "Chrome merchant/order-emails.spec.js Merchant > Order Action emails received can receive new order email" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e285583008062ea2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493350013,
+        "stop" : 1654493355630,
+        "duration" : 5617
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics-overview.spec.js Analytics pages should allow a user to remove a section" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3e21f9764a42e59",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493230369,
+        "stop" : 1654493244403,
+        "duration" : 14034
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"address1\" as the billing first address" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6f450bdf59f085e2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493493240,
+        "stop" : 1654493507671,
+        "duration" : 14431
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Stock page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8fee29979969d1a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493292789,
+        "stop" : 1654493302986,
+        "duration" : 10197
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"94107\" as the billing post code" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "56a359b3a2ef8e39",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493532624,
+        "stop" : 1654493547404,
+        "duration" : 14780
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Orders" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "727213392a1776ec",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493424382,
+        "stop" : 1654493436070,
+        "duration" : 11688
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can manage stock at variation level" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fff5eb3ed5ba94d4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493486107,
+        "stop" : 1654493510171,
+        "duration" : 24064
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Coupons" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "686c6a443dd23e44",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493441101,
+        "stop" : 1654493455331,
+        "duration" : 14230
+      }
+    } ]
+  },
+  "Chrome merchant/order-emails.spec.js Merchant > Order Action emails received can email invoice/order details to customer" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "565cda0c45a5c1d4",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"td.column-receiver\" resolved to 9 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\".receiver >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(3) > .receiver\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(4) > .receiver\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(5) > .receiver\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(6) > .receiver\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    8) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    9) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(9) > .receiver\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"td.column-receiver\"\n  strict mode violation: \"td.column-receiver\" resolved to 9 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\".receiver >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(3) > .receiver\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(4) > .receiver\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(5) > .receiver\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(6) > .receiver\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    8) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    9) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"tr:nth-child(9) > .receiver\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493416473,
+        "stop" : 1654493443734,
+        "duration" : 27261
+      }
+    } ]
+  },
+  "Chrome merchant/product-settings.spec.js WooCommerce Products > Downloadable Product Settings can update settings" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8242e919b3d96f17",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493548777,
+        "stop" : 1654493560423,
+        "duration" : 11646
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can delete all variations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4d6850fbf2efbaf7",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493385711,
+        "stop" : 1654493412224,
+        "duration" : 26513
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Downloads page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c9df7b371ac52293",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493287006,
+        "stop" : 1654493292788,
+        "duration" : 5782
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order can update order details" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "59421f5c2316a93b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493334163,
+        "stop" : 1654493343882,
+        "duration" : 9719
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Overview page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c194807685faa5eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222170,
+        "stop" : 1654493229882,
+        "duration" : 7712
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Settings page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fbc463890971563a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493302986,
+        "stop" : 1654493308864,
+        "duration" : 5878
+      }
+    } ]
+  },
+  "Chrome merchant/order-coupon.spec.js WooCommerce Orders > Apply Coupon can remove a coupon" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8bf5ca8d658ad5de",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493344759,
+        "stop" : 1654493352164,
+        "duration" : 7405
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Products sub pages Can load All Products" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "aa172b2ce6285a47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493496388,
+        "stop" : 1654493508822,
+        "duration" : 12434
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Marketing sub pages Can load Coupons" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e3df8c1f0a63f3c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493563834,
+        "stop" : 1654493572006,
+        "duration" : 8172
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions can add downloadable product permissions to order without product" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f77c1eef0b7bafdf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493343883,
+        "stop" : 1654493355191,
+        "duration" : 11308
+      }
+    } ]
+  },
+  "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can have a shopper add the simple non-virtual product to the cart" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6839ce997c32e5a7",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493343015,
+        "stop" : 1654493375678,
+        "duration" : 32663
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js Store owner can complete onboarding wizard can complete the theme selection section" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "6662feffb07017a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493372250,
+        "stop" : 1654493384162,
+        "duration" : 11912
+      }
+    } ]
+  },
+  "Chrome merchant/product-import-csv.spec.js Import Products from a CSV file can override the existing products via CSV import" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "136ea23fbbf4363b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493510949,
+        "stop" : 1654493541950,
+        "duration" : 31001
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/setup-onboarding.spec.js Store owner can login and make sure WooCommerce is activated can make sure WooCommerce is activated." : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "45341e579f5a33d5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222191,
+        "stop" : 1654493227586,
+        "duration" : 5395
+      }
+    } ]
+  },
+  "Chrome merchant/customer-payment-page.spec.js WooCommerce Merchant Flow: Orders > Customer Payment Page should show the customer payment page link on a pending order" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5f615c196931fd5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493283213,
+        "stop" : 1654493293434,
+        "duration" : 10221
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/basic-setup.spec.js Store owner can finish initial store setup can enable tax rates and calculations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "33d71c137ae4242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222161,
+        "stop" : 1654493230298,
+        "duration" : 8137
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"123456789\" as the billing phone" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8b285fa9cebfced2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493581277,
+        "stop" : 1654493589710,
+        "duration" : 8433
+      }
+    } ]
+  },
+  "Chrome merchant/settings-tax.spec.js WooCommerce Tax Settings can enable tax calculation" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "87ee1c708a8d46cc",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493560657,
+        "stop" : 1654493572589,
+        "duration" : 11932
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order can update order status" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ab5b6fbea6b4e7ee",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493327452,
+        "stop" : 1654493334163,
+        "duration" : 6711
+      }
+    } ]
+  },
+  "Chrome merchant/settings-general.spec.js WooCommerce General Settings can update settings" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ca2e17a6930e1dd0",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493557174,
+        "stop" : 1654493570047,
+        "duration" : 12873
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can manually add a variation" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90c7dbebee2f76f",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493437674,
+        "stop" : 1654493461227,
+        "duration" : 23553
+      }
+    } ]
+  },
+  "Chrome merchant/order-emails.spec.js Merchant > Order Action emails received can resend new order notification" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b3296c8c2f2e9b12",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"td.column-receiver\" resolved to 7 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=1\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=2\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=3\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"td.column-receiver\"\n  strict mode violation: \"td.column-receiver\" resolved to 7 elements:\n    1) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=0\")\n    2) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=0\")\n    3) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=1\")\n    4) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=1\")\n    5) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=2\")\n    6) <td data-colname=\"Receiver\" class=\"receiver column-r…>john.doe@example.com</td> aka playwright.$(\"text=john.doe@example.com >> nth=2\")\n    7) <td data-colname=\"Receiver\" class=\"receiver column-r…>admin@woocommercecoree2etestsuite.com</td> aka playwright.$(\"text=admin@woocommercecoree2etestsuite.com >> nth=3\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493367917,
+        "stop" : 1654493386638,
+        "duration" : 18721
+      }
+    } ]
+  },
+  "Chrome admin-marketing/coupons.spec.js Coupons page A user can view the coupons overview without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "77be018d922f9b18",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493222169,
+        "stop" : 1654493227144,
+        "duration" : 4975
+      }
+    } ]
+  },
+  "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can create simple virtual product" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ceb23d05094c3b8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493241046,
+        "stop" : 1654493260587,
+        "duration" : 19541
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Settings" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8404965d4a5cb13",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493465410,
+        "stop" : 1654493480324,
+        "duration" : 14914
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics-overview.spec.js Analytics pages moving sections should allow a user to move a section up" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1c06a9f81b35b80e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493272552,
+        "stop" : 1654493283025,
+        "duration" : 10473
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can set the variation attributes, bulk edit variations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "fef8cb313eb30553",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493332047,
+        "stop" : 1654493359640,
+        "duration" : 27593
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Home" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b02414744444afb4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493399384,
+        "stop" : 1654493422596,
+        "duration" : 23212
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-zones.spec.js Verifies shipping options from customer perspective allows customer to benefit from a free Local pickup if in SF" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2c4b7674a1eea12b",
+      "status" : "failed",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:8084",
+      "time" : {
+        "start" : 1654493352735,
+        "stop" : 1654493352792,
+        "duration" : 57
+      }
+    } ]
+  },
+  "Chrome merchant/product-search.spec.js Products > Search and View a product returns no results for non-existent product search" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "73e6ca350d19b1e5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493513353,
+        "stop" : 1654493533743,
+        "duration" : 20390
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"john.doe@example.com\" as the billing email" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "49358f60b878e6e1",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \".order_number > a.order-view\" resolved to 4 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#208 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#206\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#205\")\")\n    4) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \".order_number > a.order-view\"\n  strict mode violation: \".order_number > a.order-view\" resolved to 4 elements:\n    1) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#208 John Doe\")\")\n    2) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#206\")\")\n    3) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#205\")\")\n    4) <a class=\"order-view\" href=\"http://localhost:8086/w…>…</a> aka playwright.$(\"a:has-text(\"#77\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493568549,
+        "stop" : 1654493580561,
+        "duration" : 12012
+      }
+    } ]
+  },
+  "Chrome merchant/settings-tax.spec.js WooCommerce Tax Settings can set rate settings" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8e8498756084eb59",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toContainText(expected)\n\nExpected string: \"Fancy rates\"\nReceived string: \"\"\nCall log:\n  - expect.toContainText with timeout 5000ms\n  - waiting for selector \"ul.subsubsub > li > a.current\"\n",
+      "time" : {
+        "start" : 1654493602974,
+        "stop" : 1654493611538,
+        "duration" : 8564
+      }
+    } ]
+  },
+  "Chrome merchant/settings-tax.spec.js WooCommerce Tax Settings can remove tax classes" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "bfd9ab5183ab77b8",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493615709,
+        "stop" : 1654493618495,
+        "duration" : 2786
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Coupons page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "a4249a86159f8ba5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493269396,
+        "stop" : 1654493279548,
+        "duration" : 10152
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Products sub pages Can load Add New" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "290475606ddea82b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493508822,
+        "stop" : 1654493521354,
+        "duration" : 12532
+      }
+    } ]
+  },
+  "Chrome merchant/customer-payment-page.spec.js WooCommerce Merchant Flow: Orders > Customer Payment Page should load the customer payment page" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e7434816134983a8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493293435,
+        "stop" : 1654493305959,
+        "duration" : 12524
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Variations page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3e37fe3fff17b0fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493249412,
+        "stop" : 1654493259150,
+        "duration" : 9738
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by Failed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "adc63b71b14e3938",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493562590,
+        "stop" : 1654493573388,
+        "duration" : 10798
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js Store owner can complete onboarding wizard can complete the product types section" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "30a03844bcb49224",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493262901,
+        "stop" : 1654493287225,
+        "duration" : 24324
+      }
+    } ]
+  },
+  "Chrome basic.spec.js Sign in as admin Load wp-admin" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f9a577a816152ccb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493224707,
+        "stop" : 1654493230205,
+        "duration" : 5498
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-zones.spec.js Verifies shipping options from customer perspective allows customer to pay for a Flat rate shipping method" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "ba426d17028782aa",
+      "status" : "failed",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:8084",
+      "time" : {
+        "start" : 1654493357233,
+        "stop" : 1654493357310,
+        "duration" : 77
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Wanted Product\" as the shipping item name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8ef11ce46b179a93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493611833,
+        "stop" : 1654493616295,
+        "duration" : 4462
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-zones.spec.js Verifies shipping options from customer perspective allows customer to benefit from a free Free shipping if in CA" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "dfa8356aeef1fd75",
+      "status" : "failed",
+      "statusDetails" : "connect ECONNREFUSED 127.0.0.1:8084",
+      "time" : {
+        "start" : 1654493355089,
+        "stop" : 1654493355219,
+        "duration" : 130
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Buffalo\" as the shipping city name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cfcfe0737fbe7ee3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493606480,
+        "stop" : 1654493609160,
+        "duration" : 2680
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions can add downloadable product permissions to order with product" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c591ca422b77011f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493355191,
+        "stop" : 1654493369194,
+        "duration" : 14003
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions should not allow downloading a product if expiration date has passed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f94ab870a4be833d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493579032,
+        "stop" : 1654493592469,
+        "duration" : 13437
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics-overview.spec.js Analytics pages moving sections should allow a user to move a section down" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1bddf66fcf06556d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493262642,
+        "stop" : 1654493272551,
+        "duration" : 9909
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Marketing sub pages Can load Overview" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5b68d7a8f64fa148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493558694,
+        "stop" : 1654493563833,
+        "duration" : 5139
+      }
+    } ]
+  },
+  "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can have a shopper add the simple virtual product to the cart" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "562705cd78615d4d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493260587,
+        "stop" : 1654493274404,
+        "duration" : 13817
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Products page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1dee5917bc4e3a6b",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493229883,
+        "stop" : 1654493236036,
+        "duration" : 6153
+      }
+    } ]
+  },
+  "Chrome merchant/create-simple-product.spec.js Add New Simple Product Page can create simple non-virtual product" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fb771dd5be8768",
+      "status" : "failed",
+      "statusDetails" : "expect(received).toHaveText(expected)\n\nExpected string: \"Product published. View ProductDismiss this notice.\"\nReceived string: \"\"\nCall log:\n  - expect.toHaveText with timeout 5000ms\n  - waiting for selector \"div.notice-success\"\n",
+      "time" : {
+        "start" : 1654493294398,
+        "stop" : 1654493317725,
+        "duration" : 23327
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by Cancelled" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b5378fc5a9a31e67",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493536510,
+        "stop" : 1654493550097,
+        "duration" : 13587
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"14201\" as the shipping post code" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2ec1f5ab40bea190",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493609160,
+        "stop" : 1654493611832,
+        "duration" : 2672
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics-overview.spec.js Analytics pages should allow a user to add a section back in" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "72e2b2bf47be453",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493244404,
+        "stop" : 1654493252821,
+        "duration" : 8417
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js A japanese store can complete the selective bundle install but does not include WCPay. should display the choose payments task, and not the WC Pay task" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "3ef60b6bbef6c0cd",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493470660,
+        "stop" : 1654493492361,
+        "duration" : 21701
+      }
+    } ]
+  },
+  "Chrome merchant/product-search.spec.js Products > Search and View a product can do a partial search for a product" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "cefb19729880b357",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493447237,
+        "stop" : 1654493462299,
+        "duration" : 15062
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js Store owner can complete onboarding wizard can complete the business section" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "c589c1b8d9cd5ea7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493309855,
+        "stop" : 1654493325117,
+        "duration" : 15262
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order can view single order" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8f0e03a9583be670",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493319403,
+        "stop" : 1654493327451,
+        "duration" : 8048
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Products sub pages Can load Attributes" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b36d8634f25a1912",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493545019,
+        "stop" : 1654493558691,
+        "duration" : 13672
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load WooCommerce sub pages Can load Reports" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "15e94b46d87c3c26",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493455332,
+        "stop" : 1654493465410,
+        "duration" : 10078
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order by order id" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "595ba9eadde3237f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493356247,
+        "stop" : 1654493367130,
+        "duration" : 10883
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Categories page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2096ee01c90fb2eb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493259152,
+        "stop" : 1654493269393,
+        "duration" : 10241
+      }
+    } ]
+  },
+  "Chrome merchant/order-edit.spec.js WooCommerce Orders > Edit order > Downloadable product permissions can revoke downloadable product permissions" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "66fadd0b563a6890",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493460031,
+        "stop" : 1654493488758,
+        "duration" : 28727
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by Completed" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "2fc957755b58c88a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493525280,
+        "stop" : 1654493536506,
+        "duration" : 11226
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can create product, attributes and variations" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4e45d7d7107f4dc0",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493282942,
+        "stop" : 1654493307908,
+        "duration" : 24966
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by Processing" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f8a1d7d3059fba49",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"mark.order-status > span\" resolved to 3 elements:\n    1) <span>Processing</span> aka playwright.$(\"#post-172 >> text=Processing\")\n    2) <span>Processing</span> aka playwright.$(\"#post-77 >> text=Processing\")\n    3) <span>Processing</span> aka playwright.$(\"#post-23 >> text=Processing\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"mark.order-status > span\"\n  strict mode violation: \"mark.order-status > span\" resolved to 3 elements:\n    1) <span>Processing</span> aka playwright.$(\"#post-172 >> text=Processing\")\n    2) <span>Processing</span> aka playwright.$(\"#post-77 >> text=Processing\")\n    3) <span>Processing</span> aka playwright.$(\"#post-23 >> text=Processing\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493483580,
+        "stop" : 1654493505735,
+        "duration" : 22155
+      }
+    } ]
+  },
+  "Chrome merchant/product-search.spec.js Products > Search and View a product can view a product's details after search" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "af28a286de7b2b53",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493486988,
+        "stop" : 1654493512183,
+        "duration" : 25195
+      }
+    } ]
+  },
+  "Chrome merchant/settings-tax.spec.js WooCommerce Tax Settings can add tax classes" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "e0aae71842366336",
+      "status" : "failed",
+      "statusDetails" : "expect.toContainText: Error: strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n=========================== logs ===========================\nexpect.toContainText with timeout 5000ms\nwaiting for selector \"div.inline\"\n  strict mode violation: \"div.inline\" resolved to 2 elements:\n    1) <div class=\"update-nag notice notice-warning inline\">…</div> aka playwright.$(\"text=WordPress 6.0 is available! Please update now.\")\n    2) <div id=\"message\" class=\"updated inline\">…</div> aka playwright.$(\"#mainform div:has-text(\"Your settings have been saved.\")\")\n\n============================================================",
+      "time" : {
+        "start" : 1654493590501,
+        "stop" : 1654493594597,
+        "duration" : 4096
+      }
+    } ]
+  },
+  "Chrome merchant/order-refund.spec.js WooCommerce Orders > Refund and restock an order item can update order after refunding item without automatic stock adjustment" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "5d485e162bbd8b7d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493370730,
+        "stop" : 1654493399788,
+        "duration" : 29058
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"San Francisco\" as the billing city name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "27a8ccb6830a0ae6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493519957,
+        "stop" : 1654493532623,
+        "duration" : 12666
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can remove a variation" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1567422a52836f02",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493582071,
+        "stop" : 1654493607146,
+        "duration" : 25075
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Revenue page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "efa78c783da68d88",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493236036,
+        "stop" : 1654493242538,
+        "duration" : 6502
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js Store owner can complete onboarding wizard can unselect all business features and continue" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "f258220f8a24df31",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493346015,
+        "stop" : 1654493371380,
+        "duration" : 25365
+      }
+    } ]
+  },
+  "Chrome merchant/order-status-filter.spec.js WooCommerce Orders > Filter Order by Status should filter by On hold" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1ae859e59d20a3c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493507287,
+        "stop" : 1654493525279,
+        "duration" : 17992
+      }
+    } ]
+  },
+  "Chrome admin-analytics/analytics.spec.js Analytics pages A user can view the Taxes page without it crashing" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "b64544d8cb54fe01",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493279549,
+        "stop" : 1654493287004,
+        "duration" : 7455
+      }
+    } ]
+  },
+  "Chrome merchant/create-variable-product.spec.js Add New Variable Product Page can set variation defaults" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8c64d7fff758097",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493536298,
+        "stop" : 1654493559675,
+        "duration" : 23377
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Clark\" as the shipping last name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "52ffc3a49a6638c5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493597352,
+        "stop" : 1654493600302,
+        "duration" : 2950
+      }
+    } ]
+  },
+  "Chrome activate-and-setup/complete-onboarding-wizard.spec.js A japanese store can complete the selective bundle install but does not include WCPay. can choose the \"Other\" industry" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "28338444a8b1e129",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493384163,
+        "stop" : 1654493404072,
+        "duration" : 19909
+      }
+    } ]
+  },
+  "Chrome merchant/product-import-csv.spec.js Import Products from a CSV file should show error message if you go without providing CSV file" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "4bfe07bd30092951",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493420599,
+        "stop" : 1654493430391,
+        "duration" : 9792
+      }
+    } ]
+  },
+  "Chrome merchant/product-edit.spec.js Products > Edit Product can edit a product and save the changes" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9fe548501d047014",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493399799,
+        "stop" : 1654493420588,
+        "duration" : 20789
+      }
+    } ]
+  },
+  "Chrome admin-tasks/payment.spec.js Payment setup task Enabling cash on delivery enables the payment method" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "597dcd0690348f73",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 20000ms exceeded.",
+      "time" : {
+        "start" : 1654493331449,
+        "stop" : 1654493355471,
+        "duration" : 24022
+      }
+    } ]
+  },
+  "Chrome merchant/order-search.spec.js WooCommerce Orders > Search orders can search for order containing \"Tim\" as the shipping first name" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "90436d0464159528",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493593991,
+        "stop" : 1654493597351,
+        "duration" : 3360
+      }
+    } ]
+  },
+  "Chrome merchant/page-loads.spec.js WooCommerce Page Load > Load Products sub pages Can load Categories" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "d6908cc97747108f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493521355,
+        "stop" : 1654493532439,
+        "duration" : 11084
+      }
+    } ]
+  },
+  "Chrome merchant/create-shipping-zones.spec.js WooCommerce Shipping Settings - Add new shipping zone add shipping zone for the US with Flat rate" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "48ef84d23966fba4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493334670,
+        "stop" : 1654493351041,
+        "duration" : 16371
+      }
+    } ]
+  },
+  "Chrome merchant/order-refund.spec.js WooCommerce Orders > Refund an order can issue a refund by quantity" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "8a39f45708b5e2fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1654493352185,
+        "stop" : 1654493360439,
+        "duration" : 8254
+      }
+    } ]
+  }
+}
