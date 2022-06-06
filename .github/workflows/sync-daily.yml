@@ -21,4 +21,4 @@ jobs:
 
       - name: Sync daily folder
         run: |
-          aws s3 sync docs/daily ${{ secrets.AWS_BUCKET_URL }}/daily --delete
+          aws s3 sync data/daily ${{ secrets.AWS_BUCKET_URL }}/daily --delete
